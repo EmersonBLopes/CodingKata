@@ -1,4 +1,6 @@
 *
+# Nao ingnorar arquivos com extensao .c
 !*.c
+# Nao ingnorar diretorios
 !*/
 /**/bin
