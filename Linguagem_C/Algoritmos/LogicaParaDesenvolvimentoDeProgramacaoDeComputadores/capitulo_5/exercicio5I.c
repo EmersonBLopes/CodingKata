@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+/**
+ * apresentar a sequencia de fibonacci ate o decimo quinto termo
+ */
+
 int main(void){
   //declaracao de variaveis
   int anterior,atual,proximo,i;
