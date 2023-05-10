@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<limits.h>
 
 /**
  * Calcular e apresentar o somatorio dos graos em um tabuleiro de xadrez
