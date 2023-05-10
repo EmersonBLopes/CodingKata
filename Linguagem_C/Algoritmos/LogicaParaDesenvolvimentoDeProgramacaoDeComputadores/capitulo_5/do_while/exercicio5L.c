@@ -16,7 +16,7 @@ int main(void){
 
   //leitura de valores
   do{
-    printf("Digite o valor %d:",i);
+    printf("Digite o valor %d:",i+1);
     scanf("%d",&valores[i]);
     i++;
   }while(i < 15);
