@@ -14,7 +14,7 @@ int main(void){
     proximo = atual + anterior;
 
     //processamento e saida
-    for(int i = 0; i < 14; i++){
+    for(int i = 0; i < 15; i++){
 
         if(i != 14){
             printf("%d ",atual);
