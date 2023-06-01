@@ -24,11 +24,14 @@ int main(void){
   }
 
   //processamento
+
+  //constroi a matriz D
   for(int i = 0; i < 6; i+=2){
     d[i] = a[i];
     d[i+1] = b[i];
   }
   
+  //constroi a matriz C
   for(int i = 1; i < 6; i+=2){
     c[i-1] = a[i];
     c[i] = b[i];
@@ -42,6 +45,10 @@ int main(void){
       assert(a[i] == c[i] || b[i] == c[i]);
     }
   }
+
+  //desalocando memoria
+  free(a);
+  free(b);
 
   for(int i = 0; i < 6; i++){
     printf("C[%d] = %d\n",i,c[i]);
