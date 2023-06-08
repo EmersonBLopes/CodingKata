@@ -1,6 +1,8 @@
 *
-# Nao ingnorar arquivos com extensao .c
+# Nao ingnorar arquivos com extensao 
 !*.c
+!*.py
 # Nao ingnorar diretorios
 !*/
+#Ingnorar diretorios bin/
 /**/bin
